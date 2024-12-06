@@ -1,0 +1,22 @@
+body{
+    background-color: #f5f5f5;
+}
+
+.pdf {
+    width: 100%;
+}
+
+.pdf,
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#jupiterAlert{
+    color: darkred;
+    background-color: rgb(215, 215, 215);
+}
