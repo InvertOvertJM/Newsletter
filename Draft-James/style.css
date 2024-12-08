@@ -1,25 +1,98 @@
-body{
+body {
     background-color: #f5f5f5;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 130px;  /* MAKES SPACE FOR ALERT AND NAVBAR TO BE FIXED TO TOP */
 }
 
-#jupiterAlert{
+#jupiterAlert {
     background-color: rgb(215, 215, 215);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:200000;  /* ON TOP NO MATTER WHAT */
 }
 
-.redtext{
+.redtext {
     color: #AF0F1C;
 }
 
-.redbg{
+.dropdown-menu {
     background-color: #AF0F1C;
 }
 
-.dropdown-item{
+.dropdown-item {
+    color: white;
+}
+
+.right {
+    margin-left: 15px;
+}
+
+.navbar{
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    z-index:200000; /* ON TOP NO MATTER WHAT */
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    padding: 30px 90px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar-nav .dropdown-menu {
+    font-size: 16px;
+}
+
+.navbar-toggler {
+    font-size: 20px;
+}
+
+.link{
+    color:blue;
+    text-decoration: underline;
+}
+
+.list-group-item {
+    font-size: 16px;
+    padding: 15px 20px;
+}
+
+.list-group-item {
+    font-size: 20px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.list-group-item:hover {
+    color: #AF0F1C;
+    background-color: #afafaf;
+    transition: 0.3s;
+}
+
+.list-group-item a:hover {
+    color: inherit; 
+}
+
+.dropdown-menu .dropdown-item {
+    padding: 10px 20px;
+}
+
+.toggled{
+    background-color: #AF0F1C;
+    
+}
+
+.onThis{
+    background-color: #AF0F1C;
     color:white;
 }
-
-.right{
-    margin-left:15px
-}
-
