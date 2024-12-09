@@ -58,11 +58,6 @@ body {
 }
 
 .list-group-item {
-    font-size: 16px;
-    padding: 15px 20px;
-}
-
-.list-group-item {
     font-size: 20px;
     padding: 15px 20px;
     cursor: pointer;
@@ -74,9 +69,10 @@ body {
 }
 
 .list-group-item:hover {
-    color: #AF0F1C;
-    background-color: #afafaf;
-    transition: 0.3s;
+    transition: 0.2s;
+    color: white;
+    background-color: #AF0F1C;
+    
 }
 
 .list-group-item a:hover {
