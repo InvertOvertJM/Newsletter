@@ -93,32 +93,69 @@ body {
     color:white;
 }
 
-.footer {
+.footer3 {
     background-color: #AF0F1C;
-    color: white;
-    padding: 40px 20px;
-  }
+    color: #fff;
+    padding: 20px 0;
+}
 
-.footer h5 {
+.footer1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer2 {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer2 h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer2 p,
+.footer2 ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer2 ul li {
+    margin-bottom: 10px;
+}
+
+.footer2 ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer2 ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-links a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+h4{
     border-bottom: 2px solid white;
     display: inline-block;
     padding-bottom: 5px;
     margin-bottom: 20px;
-  }
-
-.icon {
-    font-size: 2rem;
-    margin-bottom: 10px;
-  }
-
-.btn-read-more {
-    border: 1px solid white;
-    color: white;
-    padding: 5px 20px;
-    text-decoration: none;
-  }
-
-.footer .btn-read-more:hover {
-    background-color: white;
-    color: #990000;
-  }
+}
