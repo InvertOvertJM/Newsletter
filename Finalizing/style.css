@@ -92,3 +92,33 @@ body {
     background-color: #AF0F1C;
     color:white;
 }
+
+.footer {
+    background-color: #AF0F1C;
+    color: white;
+    padding: 40px 20px;
+  }
+
+.footer h5 {
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+
+.icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+.btn-read-more {
+    border: 1px solid white;
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+  }
+
+.footer .btn-read-more:hover {
+    background-color: white;
+    color: #990000;
+  }
