@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+  <script src="velocity.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cave-bg">
+    <div class="project-layer">
+      <div class="crack left"></div>
+      <div class="project">
+        <div class="ore bronze" id="scaling">Scaling Website</div>
+      </div>
+      <div class="project">
+        <div class="ore bronze" id="faith">Faith App</div>
+      </div>
+      <div class="crack right"></div>
+    </div>
+  
+    <div class="project-layer">
+      <div class="crack left"></div>
+      <div class="project">
+        <div class="ore white" id="lob">LobCorp</div>
+      </div>
+      <div class="project">
+        <div class="ore white" id="clasherv1">Clash V1</div>
+      </div>
+      <div class="crack right"></div>
+    </div>
+  
+    <div class="project-layer">
+      <div class="crack left"></div>
+      <div class="project">
+        <div class="ore cyan" id="themed">Themed Website</div>
+      </div>
+      <div class="project">
+        <div class="ore cyan" id="news">News</div>
+      </div>
+      <div class="crack right"></div>
+    </div>
+  
+    <div class="project-layer">
+      <div class="crack left"></div>
+      <div class="project">
+        <div class="ore cyan" id="clasher">Clash V2</div>
+      </div>
+      <div class="project">
+        <div class="ore cyan" id="wcorp">W Corp</div>
+      </div>
+      <div class="crack right"></div>
+    </div>
+  </div>
+  
+
+  <div class="rope">
+    <div class="stickman">
+      <img id="stickman-img" src="sequence/1.png">
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <button class="footer-btn sack-btn" id="sackBtn">
+      ORES
+    </button>
+    <button class="footer-btn phone-btn" id="phoneBtn">
+      PHONE
+    </button>
+  </footer>
+
+  <div id="oreGUI" class="ore-gui">
+    <div class="ore-gui-content">
+      <button class="close-btn" id="closeOreGUI">×</button>
+      <h1>Click On Ores to Learn More:</h1>
+      <div class="ore-row bronze-row">
+        <div class="ore-shape bronze" id="scalingG"><span class="text">Scaling</span></div>
+        <div class="ore-shape bronze" id="faithG"><span class="text">Faith</span></div>
+        <div class="ore-shape bronze" id="lobG"><span class="text">LobCorp</span></div>
+      </div>
+  
+      <div class="ore-row white-row">
+        <div class="ore-shape white" id="clasherv1G"><span class="text">ClasherV1</span></div>
+        <div class="ore-shape white" id="themedG"><span class="text">Themed</span></div>
+      </div>
+  
+      <div class="ore-row cyan-row">
+        <div class="ore-shape cyan" id="newsG"><span class="text">Newsletter</span></div>
+        <div class="ore-shape cyan" id="clasherv2G"><span class="text">ClasherV2</span></div>
+        <div class="ore-shape cyan" id="wcorpG"><span class="text">W Corp</span></div>
+      </div>
+    </div>
+</div>
+<p><strong>The Abyss:</strong></p>
+
+  <div id="oreDetailGUI" class="ore-detail-gui">
+    <div class="ore-detail-content">
+      <button id="closeOreDetailGUI">×</button>
+      <h2 id="oreTitle"></h2>
+      <p><strong>Classification:</strong> <span id="oreType"></span></p>
+      <p id="oreDescription"></p>
+      <a id="oreLink" href="#" target="_blank">View Project</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
